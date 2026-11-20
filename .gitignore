@@ -2,3 +2,8 @@
 __pycache__/
 *.egg-info/
 .pytest_cache/
+# local-only benchmark harness (cluster paths, private data); kept on disk, never committed
+benchmarks/
+# ASPIRE / APPLE side outputs
+logs/
+*_applepick.star
